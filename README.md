@@ -1,6 +1,6 @@
 # PeoplePulse — management demo
 
-A Streamlit candidate-experience prototype with 47 original bilingual question-bank items. Core survey routing, responses, insights and editable rule-based action plans work within one browser session. This is a new standalone Python demo, not a migration of the earlier React/Sites application.
+A Streamlit candidate-experience prototype with 85 original bilingual question-bank items (8 per stage block). Core survey routing, responses, insights and editable rule-based action plans work within one browser session. This is a new standalone Python demo, not a migration of the earlier React/Sites application.
 
 ## Deploy
 Upload the contents of this folder directly to the root of the private `mariaantar301-lang/people-pulse` repository. Do not upload the ZIP itself. Select the actual branch shown on GitHub (usually `main` after the first upload), with entrypoint `streamlit_app.py`. Use Python 3.12. No secrets or paid API keys are needed.
@@ -29,10 +29,13 @@ Rejection response records omit the respondent name but this shared HR demonstra
 
 No email is sent. No public candidate portal, SAP connector, real scheduled automation, AI service, external benchmarks or Gallup/Korn Ferry content is included. Action suggestions use simple disclosed rules and require human review.
 
+## Question builder (Question bank page)
+Add, edit, reorder and delete questions in English from inside the app, and choose the answer type (rating 1–5, yes/no, yes/no/unsure, single choice, multiple choice, score 0–10, text). A rating, yes/no or single-choice question can optionally propose an action plan item (theme, action, owner) for the answers you pick. Arabic wording is optional; English is shown when it is empty. Changes last for the browser session: use Download question bank JSON and replace `question_bank.json` in GitHub to keep them, or load a saved file back from the Import / export tab. The awareness question (B02) and the two overall scores (G01, G02) are locked from deletion.
+
 ## Editing and extension
 `domain.py`: stage order, outcome triggers, core question routing, response schema and action rules.
 
-`question_bank.json`: 47 questions, bilingual wording, scales, routing notes and thematic source links. Optional questions are available for review but not activated by the current core route.
+`question_bank.json`: 85 questions (8 per stage block: Application, Screening call, HR interview, Technical interview, Assessment, Final behavioral interview, Reference / background checks, Offer), bilingual wording, scales, routing notes and thematic source links. Optional questions are available for review but not activated by the current core route.
 
 `streamlit_app.py`: presentation and session UI. Onboarding, engagement and offboarding are roadmap items, not implemented modules.
 

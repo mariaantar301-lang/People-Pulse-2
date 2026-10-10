@@ -67,237 +67,6 @@
       "source": "User requirements / original design"
     },
     {
-      "id": "P01",
-      "stage": "Application",
-      "use": "Core",
-      "ar": "كيف تقيّم سهولة إكمال تقديمك لهذه الوظيفة؟",
-      "en": "How easy or difficult was it to complete your application for this vacancy?",
-      "scale": "EASE",
-      "condition": "Application completed; N/A for a directly sourced person who did not apply",
-      "action": "Review form friction or document requirements if difficult.",
-      "source": "https://www.surveymonkey.com/learn/employee-feedback/candidate-experience-survey/"
-    },
-    {
-      "id": "P02",
-      "stage": "Application",
-      "use": "Optional",
-      "ar": "قبل التقديم، إلى أي درجة كانت المسؤوليات الرئيسية للوظيفة واضحة لك؟",
-      "en": "Before applying, how clear were the main responsibilities of this vacancy to you?",
-      "scale": "CLARITY",
-      "condition": "A vacancy description was seen; otherwise N/A",
-      "action": "Revise the job advertisement if clarity is low.",
-      "source": "https://www.surveymonkey.com/learn/employee-feedback/candidate-experience-survey/"
-    },
-    {
-      "id": "S01",
-      "stage": "Screening call",
-      "use": "Core",
-      "ar": "إلى أي درجة ساعدتك المكالمة الأولية على فهم الخطوة التالية في التوظيف؟",
-      "en": "How clearly did the screening call establish what would happen next in the hiring process?",
-      "scale": "CLARITY",
-      "condition": "Screening call completed",
-      "action": "Improve the screening closing explanation and next-step message.",
-      "source": "User requirements / original design"
-    },
-    {
-      "id": "S02",
-      "stage": "Screening call",
-      "use": "Optional",
-      "ar": "كيف تقيّم الطريقة التي نوقشت بها توقعاتك للراتب خلال المكالمة؟",
-      "en": "How would you rate the way your salary expectations were discussed during the call?",
-      "scale": "QUALITY",
-      "condition": "Salary expectations were discussed; otherwise N/A",
-      "action": "Review the tone and clarity of the salary discussion; do not request salary amounts in this survey.",
-      "source": "User requirements / original design"
-    },
-    {
-      "id": "S03",
-      "stage": "Screening call",
-      "use": "Optional",
-      "ar": "إلى أي درجة كانت تعليمات الجزء المتعلق باللغة الإنجليزية واضحة؟",
-      "en": "How clear were the instructions for the English-language part of the screening call?",
-      "scale": "CLARITY",
-      "condition": "English check completed; otherwise N/A",
-      "action": "Clarify what candidates should do; this does not measure their English ability.",
-      "source": "User requirements / original design"
-    },
-    {
-      "id": "H01",
-      "stage": "First interview — HR",
-      "use": "Core",
-      "ar": "إلى أي درجة أتاحت لك مقابلة الموارد البشرية الأولى شرح خبراتك ذات الصلة؟",
-      "en": "How much opportunity did the first HR interview give you to explain your relevant experience?",
-      "scale": "OPPORTUNITY",
-      "condition": "First HR interview completed",
-      "action": "Review the interview structure and time allocated to candidate examples.",
-      "source": "User requirements / original design"
-    },
-    {
-      "id": "H02",
-      "stage": "First interview — HR",
-      "use": "Optional",
-      "ar": "بعد مقابلة الموارد البشرية الأولى، إلى أي درجة أصبحت طبيعة العمل المتوقعة واضحة لك؟",
-      "en": "After the first HR interview, how clear was the work you would be expected to do?",
-      "scale": "CLARITY",
-      "condition": "First HR interview completed",
-      "action": "Review how the role is explained; separate it from the job-ad rating.",
-      "source": "User requirements / original design"
-    },
-    {
-      "id": "T01",
-      "stage": "Second interview — Technical",
-      "use": "Core",
-      "ar": "إلى أي درجة أتاحت لك المقابلة التقنية عرض مهارات مرتبطة بمتطلبات الوظيفة؟",
-      "en": "How much opportunity did the technical interview give you to demonstrate skills relevant to this role?",
-      "scale": "OPPORTUNITY",
-      "condition": "Technical interview completed",
-      "action": "Review whether prompts allow relevant examples, rather than judging candidate technical performance.",
-      "source": "User requirements / original design"
-    },
-    {
-      "id": "T02",
-      "stage": "Second interview — Technical",
-      "use": "Optional",
-      "ar": "إلى أي درجة كانت الموضوعات التقنية التي نوقشت مرتبطة بالعمل المتوقع في هذه الوظيفة؟",
-      "en": "How closely did the technical topics discussed connect to the work expected in this role?",
-      "scale": "RELEVANCE",
-      "condition": "Technical interview completed; candidate may choose Cannot judge",
-      "action": "Review the competency-to-role mapping. This is candidate perception, not proof of assessment validity.",
-      "source": "User requirements / original design"
-    },
-    {
-      "id": "A01",
-      "stage": "Assessment — between interviews 2 and 3",
-      "use": "Core",
-      "ar": "كيف تقيّم مناسبة الوقت المطلوب لإكمال الاختبار بالنسبة لهذه الوظيفة؟",
-      "en": "How reasonable was the time commitment required for the assessment for this role?",
-      "scale": "REASONABLENESS",
-      "condition": "Assessment completed or attempted; otherwise do not show",
-      "action": "Review assessment burden and stated expected completion time.",
-      "source": "https://support.greenhouse.io/hc/en-us/articles/20996918310555-Sample-survey-questions"
-    },
-    {
-      "id": "A02",
-      "stage": "Assessment — between interviews 2 and 3",
-      "use": "Optional",
-      "ar": "إلى أي درجة كانت تعليمات الاختبار واضحة؟",
-      "en": "How clear were the assessment instructions?",
-      "scale": "CLARITY",
-      "condition": "Assessment received or attempted",
-      "action": "Clarify instructions, deadlines and submission steps.",
-      "source": "https://support.greenhouse.io/hc/en-us/articles/20067959125787-Best-practices-for-writing-survey-questions"
-    },
-    {
-      "id": "A03",
-      "stage": "Assessment — between interviews 2 and 3",
-      "use": "Optional",
-      "ar": "إلى أي درجة كانت مهام الاختبار مرتبطة بمتطلبات الوظيفة كما فهمتها؟",
-      "en": "How closely did the assessment tasks match the role requirements as you understood them?",
-      "scale": "RELEVANCE",
-      "condition": "Assessment attempted; allow Cannot judge",
-      "action": "Review assessment relevance; do not treat perceived relevance as psychometric validation.",
-      "source": "https://support.greenhouse.io/hc/en-us/articles/20996918310555-Sample-survey-questions"
-    },
-    {
-      "id": "A04",
-      "stage": "Assessment — between interviews 2 and 3",
-      "use": "Optional",
-      "ar": "هل واجهت عائقًا في الوصول إلى الاختبار أو إكماله؟",
-      "en": "Did anything prevent or hinder you from accessing or completing the assessment?",
-      "scale": "ASSESSMENT_BARRIER",
-      "condition": "Assessment received or attempted; select all that apply",
-      "action": "Route technical access issues to the assessment provider; review timing or accessibility support.",
-      "source": "User requirements / original design"
-    },
-    {
-      "id": "F01",
-      "stage": "Third interview — Behavioral",
-      "use": "Core",
-      "ar": "إلى أي درجة أتاحت لك المقابلة النهائية استخدام أمثلة فعلية من خبرتك لشرح طريقة عملك؟",
-      "en": "How much opportunity did the final interview give you to use real examples from your experience to explain how you work?",
-      "scale": "OPPORTUNITY",
-      "condition": "Final behavioral interview completed",
-      "action": "Review behavioral prompts, probing and the time available for examples.",
-      "source": "User requirements / original design"
-    },
-    {
-      "id": "F02",
-      "stage": "Third interview — Behavioral",
-      "use": "Optional",
-      "ar": "كيف تقيّم تنظيم الحوار بين أعضاء لجنة المقابلة النهائية؟",
-      "en": "How would you rate the coordination of the discussion among the final interview panel members?",
-      "scale": "QUALITY",
-      "condition": "Final behavioral interview completed",
-      "action": "Review panel roles, interruptions and repeated questioning.",
-      "source": "User requirements / original design"
-    },
-    {
-      "id": "I01",
-      "stage": "Interview detail — reusable",
-      "use": "Core",
-      "ar": "كيف تقيّم احترافية تعامل المقابلين خلال [المقابلة]؟",
-      "en": "How would you rate the professional conduct of the interviewers during [interview]?",
-      "scale": "QUALITY",
-      "condition": "Repeat for each attended HR / technical / final interview in full version; compact version uses interview dropdown",
-      "action": "Review interviewer conduct at the relevant stage; do not rank individuals from small samples.",
-      "source": "https://www.surveymonkey.com/templates/candidate-experience-survey-template/"
-    },
-    {
-      "id": "I02",
-      "stage": "Interview detail — reusable",
-      "use": "Optional",
-      "ar": "إلى أي درجة كانت صياغة أسئلة [المقابلة] واضحة؟",
-      "en": "How clear was the wording of the questions asked during [interview]?",
-      "scale": "CLARITY",
-      "condition": "Relevant interview attended",
-      "action": "Review jargon, ambiguous questions and interview preparation.",
-      "source": "https://support.greenhouse.io/hc/en-us/articles/20067959125787-Best-practices-for-writing-survey-questions"
-    },
-    {
-      "id": "I03",
-      "stage": "Interview detail — reusable",
-      "use": "Optional",
-      "ar": "كيف تقيّم التزام [المقابلة] بموعد البدء الذي أُبلغت به؟",
-      "en": "How would you rate adherence to the start time communicated for [interview]?",
-      "scale": "QUALITY",
-      "condition": "Relevant interview attended; allow No set time / Cannot recall",
-      "action": "Compare candidate feedback with actual scheduling records.",
-      "source": "https://www.surveymonkey.com/templates/candidate-experience-survey-template/"
-    },
-    {
-      "id": "I04",
-      "stage": "Interview detail — reusable",
-      "use": "Optional",
-      "ar": "إلى أي درجة كان الوقت المتاح لك للإجابة خلال [المقابلة] كافيًا؟",
-      "en": "How sufficient was the time available for you to answer during [interview]?",
-      "scale": "SUFFICIENCY",
-      "condition": "Relevant interview attended",
-      "action": "Review duration, number of prompts and interruptions.",
-      "source": "User requirements / original design"
-    },
-    {
-      "id": "I05",
-      "stage": "Interview detail — reusable",
-      "use": "Optional",
-      "ar": "إلى أي درجة أُتيحت لك فرصة طرح أسئلتك خلال [المقابلة]؟",
-      "en": "How much opportunity did you have to ask your own questions during [interview]?",
-      "scale": "OPPORTUNITY",
-      "condition": "Relevant interview attended",
-      "action": "Reserve space for candidate questions.",
-      "source": "https://www.surveymonkey.com/templates/candidate-experience-survey-template/"
-    },
-    {
-      "id": "I06",
-      "stage": "Interview detail — reusable",
-      "use": "Optional",
-      "ar": "هل حدث خلال [المقابلة] موقف جعلك تشعر بعدم الاحترام أو بعدم الارتياح؟",
-      "en": "Did anything during [interview] make you feel disrespected or uncomfortable?",
-      "scale": "YES_NO_PREFER_NOT",
-      "condition": "Relevant interview attended; optional; optional comment without names",
-      "action": "Route for confidential HR review; do not automatically forward allegations to the interviewer.",
-      "source": "User requirements / original design"
-    },
-    {
       "id": "C01",
       "stage": "Across completed stages",
       "use": "Core",
@@ -331,59 +100,708 @@
       "source": "User requirements / original design"
     },
     {
+      "id": "P01",
+      "stage": "Application",
+      "use": "Core",
+      "ar": "ما مدى سهولة إكمال طلب التقديم؟",
+      "en": "How easy or difficult was it to complete your application?",
+      "scale": "EASE",
+      "condition": "Application completed; one of 8 questions in this stage block",
+      "action": "Review form length, mandatory fields and mobile experience if difficult.",
+      "source": "Original wording; theme: Clarity, simplicity (AIHR foundations; SurveyMonkey application themes)"
+    },
+    {
+      "id": "P02",
+      "stage": "Application",
+      "use": "Core",
+      "ar": "ما مدى وضوح الوصف الوظيفي والمتطلبات قبل أن تتقدّم؟",
+      "en": "How clear were the job description and requirements before you applied?",
+      "scale": "CLARITY",
+      "condition": "Application completed; one of 8 questions in this stage block",
+      "action": "Review job-advert wording with the hiring manager.",
+      "source": "Original wording; theme: Clarity, simplicity (AIHR foundations; SurveyMonkey application themes)"
+    },
+    {
+      "id": "P03",
+      "stage": "Application",
+      "use": "Core",
+      "ar": "هل جعل أيٌّ مما يلي التقديم أصعب؟ اختر كل ما ينطبق.",
+      "en": "Did any of the following make applying harder? Select all that apply.",
+      "scale": "APPLICATION_FRICTION_MULTI",
+      "condition": "Application completed; one of 8 questions in this stage block",
+      "action": "Identify the most common friction points.",
+      "source": "Original wording; theme: Clarity, simplicity (AIHR foundations; SurveyMonkey application themes)"
+    },
+    {
+      "id": "P04",
+      "stage": "Application",
+      "use": "Core",
+      "ar": "ما مدى معقولية الوقت الذي استغرقه إكمال طلب التقديم؟",
+      "en": "How reasonable was the time needed to complete your application?",
+      "scale": "REASONABLENESS",
+      "condition": "Application completed; one of 8 questions in this stage block",
+      "action": "Review form length.",
+      "source": "Original wording; theme: Clarity, simplicity (AIHR foundations; SurveyMonkey application themes)"
+    },
+    {
+      "id": "P05",
+      "stage": "Application",
+      "use": "Core",
+      "ar": "هل وصلك ما يؤكد استلام طلبك؟",
+      "en": "Did you receive confirmation that your application had been received?",
+      "scale": "YES_NO",
+      "condition": "Application completed; one of 8 questions in this stage block",
+      "action": "Check that automatic acknowledgements are working.",
+      "source": "Original wording; theme: Clarity, simplicity (AIHR foundations; SurveyMonkey application themes)"
+    },
+    {
+      "id": "P06",
+      "stage": "Application",
+      "use": "Core",
+      "ar": "ما مدى وضوح الخطوات التالية والإطار الزمني المتوقع بعد التقديم؟",
+      "en": "How clear were you about the next steps and expected timeline after you applied?",
+      "scale": "CLARITY",
+      "condition": "Application completed; one of 8 questions in this stage block",
+      "action": "Review the acknowledgement message and stated timeline.",
+      "source": "Original wording; theme: Clarity, simplicity (AIHR foundations; SurveyMonkey application themes)"
+    },
+    {
+      "id": "P07",
+      "stage": "Application",
+      "use": "Core",
+      "ar": "استطعت بسهولة إيجاد معلومات كافية عن ثقافة الشركة وقيمها قبل التقديم.",
+      "en": "I could easily find enough information about the company's culture and values before applying.",
+      "scale": "AGREEMENT",
+      "condition": "Application completed; one of 8 questions in this stage block",
+      "action": "Review careers-page content on culture and values.",
+      "source": "Original wording; theme: Clarity, simplicity (AIHR foundations; SurveyMonkey application themes)"
+    },
+    {
+      "id": "P08",
+      "stage": "Application",
+      "use": "Core",
+      "ar": "ما التغيير الواحد الذي كان سيجعل التقديم أبسط أو أوضح؟",
+      "en": "What one change would have made applying simpler or clearer?",
+      "scale": "TEXT",
+      "condition": "Application completed; one of 8 questions in this stage block",
+      "action": "Code themes neutrally.",
+      "source": "Original wording; theme: Clarity, simplicity (AIHR foundations; SurveyMonkey application themes)"
+    },
+    {
+      "id": "S01",
+      "stage": "Screening call",
+      "use": "Core",
+      "ar": "كيف تقيّم مهنية المكالمة التعريفية؟",
+      "en": "How would you rate the professionalism of the screening call?",
+      "scale": "QUALITY",
+      "condition": "Screening call attended; one of 8 questions in this stage block",
+      "action": "Review call standards with the recruiter.",
+      "source": "Original wording; theme: Transparency, feedback (AIHR foundations; screening-call themes)"
+    },
+    {
+      "id": "S02",
+      "stage": "Screening call",
+      "use": "Core",
+      "ar": "هل بدأت المكالمة في الوقت المتفق عليه؟",
+      "en": "Did the call start at the time agreed with you?",
+      "scale": "TIMING_START",
+      "condition": "Screening call attended; one of 8 questions in this stage block",
+      "action": "Compare with scheduling records.",
+      "source": "Original wording; theme: Transparency, feedback (AIHR foundations; screening-call themes)"
+    },
+    {
+      "id": "S03",
+      "stage": "Screening call",
+      "use": "Core",
+      "ar": "أي من المواضيع التالية تم شرحها بوضوح خلال المكالمة؟ اختر كل ما ينطبق.",
+      "en": "Which of these topics were explained clearly during the call? Select all that apply.",
+      "scale": "SCREENING_TOPICS_MULTI",
+      "condition": "Screening call attended; one of 8 questions in this stage block",
+      "action": "Check the screening-call script covers every topic.",
+      "source": "Original wording; theme: Transparency, feedback (AIHR foundations; screening-call themes)"
+    },
+    {
+      "id": "S04",
+      "stage": "Screening call",
+      "use": "Core",
+      "ar": "كيف تقيّم الطريقة التي نوقش بها راتبك المتوقع؟",
+      "en": "How would you rate the way your salary expectations were discussed?",
+      "scale": "QUALITY",
+      "condition": "Screening call attended; one of 8 questions in this stage block",
+      "action": "Review how salary expectations are raised and explained.",
+      "source": "Original wording; theme: Transparency, feedback (AIHR foundations; screening-call themes)"
+    },
+    {
+      "id": "S05",
+      "stage": "Screening call",
+      "use": "Core",
+      "ar": "ما مدى وضوح التعليمات الخاصة بجزء اللغة الإنجليزية في المكالمة؟",
+      "en": "How clear were the instructions for the English-language part of the call?",
+      "scale": "CLARITY",
+      "condition": "Screening call attended; one of 8 questions in this stage block",
+      "action": "Review how the English check is introduced.",
+      "source": "Original wording; theme: Transparency, feedback (AIHR foundations; screening-call themes)"
+    },
+    {
+      "id": "S06",
+      "stage": "Screening call",
+      "use": "Core",
+      "ar": "ما مقدار الفرصة التي أُتيحت لك لطرح أسئلتك؟",
+      "en": "How much opportunity did you have to ask your own questions?",
+      "scale": "OPPORTUNITY",
+      "condition": "Screening call attended; one of 8 questions in this stage block",
+      "action": "Leave time for candidate questions.",
+      "source": "Original wording; theme: Transparency, feedback (AIHR foundations; screening-call themes)"
+    },
+    {
+      "id": "S07",
+      "stage": "Screening call",
+      "use": "Core",
+      "ar": "بعد المكالمة، كم انتظرت حتى وصلك أي خبر عن الخطوة التالية؟",
+      "en": "After the call, how long did you wait to hear about the next step?",
+      "scale": "WAIT_TIME",
+      "condition": "Screening call attended; one of 8 questions in this stage block",
+      "action": "Compare with actual turnaround records.",
+      "source": "Original wording; theme: Transparency, feedback (AIHR foundations; screening-call themes)"
+    },
+    {
+      "id": "S08",
+      "stage": "Screening call",
+      "use": "Core",
+      "ar": "ما الذي يمكننا تحسينه في المكالمة التعريفية؟",
+      "en": "What could we improve about the screening call?",
+      "scale": "TEXT",
+      "condition": "Screening call attended; one of 8 questions in this stage block",
+      "action": "Code themes neutrally.",
+      "source": "Original wording; theme: Transparency, feedback (AIHR foundations; screening-call themes)"
+    },
+    {
+      "id": "H01",
+      "stage": "HR interview",
+      "use": "Core",
+      "ar": "ما مدى استعداد المحاورين لمقابلتك؟",
+      "en": "How prepared were the interviewers for your interview?",
+      "scale": "PREPARED",
+      "condition": "HR interview attended; one of 8 questions in this stage block",
+      "action": "Brief interviewers on the candidate profile beforehand.",
+      "source": "Original wording; theme: Interviewer preparedness, inclusion (SurveyMonkey interview themes)"
+    },
+    {
+      "id": "H02",
+      "stage": "HR interview",
+      "use": "Core",
+      "ar": "ما مدى وضوح وصف المحاورين للدور ومسؤولياته؟",
+      "en": "How clearly did the interviewers describe the role and its responsibilities?",
+      "scale": "CLARITY",
+      "condition": "HR interview attended; one of 8 questions in this stage block",
+      "action": "Align the role briefing used in interviews.",
+      "source": "Original wording; theme: Interviewer preparedness, inclusion (SurveyMonkey interview themes)"
+    },
+    {
+      "id": "H03",
+      "stage": "HR interview",
+      "use": "Core",
+      "ar": "ما مقدار الفرصة التي أُتيحت لك لعرض خبرتك ونقاط قوتك؟",
+      "en": "How much opportunity did you have to present your experience and strengths?",
+      "scale": "OPPORTUNITY",
+      "condition": "HR interview attended; one of 8 questions in this stage block",
+      "action": "Review interview structure and question time.",
+      "source": "Original wording; theme: Interviewer preparedness, inclusion (SurveyMonkey interview themes)"
+    },
+    {
+      "id": "H04",
+      "stage": "HR interview",
+      "use": "Core",
+      "ar": "هل توفّر لك وقت كافٍ لطرح أسئلتك؟",
+      "en": "Did you have enough time to ask your own questions?",
+      "scale": "YES_NO",
+      "condition": "HR interview attended; one of 8 questions in this stage block",
+      "action": "Reserve time for candidate questions.",
+      "source": "Original wording; theme: Interviewer preparedness, inclusion (SurveyMonkey interview themes)"
+    },
+    {
+      "id": "H05",
+      "stage": "HR interview",
+      "use": "Core",
+      "ar": "هل بدأت المقابلة في الوقت الذي أُبلغت به؟",
+      "en": "Did the interview start at the time communicated to you?",
+      "scale": "TIMING_START",
+      "condition": "HR interview attended; one of 8 questions in this stage block",
+      "action": "Compare with scheduling records.",
+      "source": "Original wording; theme: Interviewer preparedness, inclusion (SurveyMonkey interview themes)"
+    },
+    {
+      "id": "H06",
+      "stage": "HR interview",
+      "use": "Core",
+      "ar": "ما مدى شعورك بالراحة لتكون على طبيعتك خلال المقابلة؟",
+      "en": "How comfortable did you feel being yourself during the interview?",
+      "scale": "COMFORT",
+      "condition": "HR interview attended; one of 8 questions in this stage block",
+      "action": "Review interview opening and setting.",
+      "source": "Original wording; theme: Interviewer preparedness, inclusion (SurveyMonkey interview themes)"
+    },
+    {
+      "id": "H07",
+      "stage": "HR interview",
+      "use": "Core",
+      "ar": "بعد المقابلة، أصبحت أفهم قيم الشركة وطريقة عملها.",
+      "en": "After the interview, I understand the company's values and way of working.",
+      "scale": "AGREEMENT",
+      "condition": "HR interview attended; one of 8 questions in this stage block",
+      "action": "Review how values are communicated in interviews.",
+      "source": "Original wording; theme: Interviewer preparedness, inclusion (SurveyMonkey interview themes)"
+    },
+    {
+      "id": "H08",
+      "stage": "HR interview",
+      "use": "Core",
+      "ar": "أكمل الجملة: كنت سأقدّم أداءً أفضل في هذه المقابلة لو…",
+      "en": "Complete this sentence: I would have performed better in this interview if…",
+      "scale": "TEXT",
+      "condition": "HR interview attended; one of 8 questions in this stage block",
+      "action": "Code themes neutrally.",
+      "source": "Original wording; theme: Interviewer preparedness, inclusion (SurveyMonkey interview themes)"
+    },
+    {
+      "id": "T01",
+      "stage": "Technical interview",
+      "use": "Core",
+      "ar": "ما مدى ارتباط الأسئلة التقنية بالعمل المتوقع في هذا الدور؟",
+      "en": "How closely did the technical questions relate to the work expected in the role?",
+      "scale": "RELEVANCE",
+      "condition": "Technical interview attended; one of 8 questions in this stage block",
+      "action": "Review the technical question set against role competencies.",
+      "source": "Original wording; theme: Relevance, opportunity to demonstrate skills (SurveyMonkey / Greenhouse interview themes)"
+    },
+    {
+      "id": "T02",
+      "stage": "Technical interview",
+      "use": "Core",
+      "ar": "ما مقدار الفرصة التي أُتيحت لك لإظهار مهاراتك بأمثلة حقيقية؟",
+      "en": "How much opportunity did you have to demonstrate your skills with real examples?",
+      "scale": "OPPORTUNITY",
+      "condition": "Technical interview attended; one of 8 questions in this stage block",
+      "action": "Review competency coverage.",
+      "source": "Original wording; theme: Relevance, opportunity to demonstrate skills (SurveyMonkey / Greenhouse interview themes)"
+    },
+    {
+      "id": "T03",
+      "stage": "Technical interview",
+      "use": "Core",
+      "ar": "ما مدى وضوح الأسئلة التي طرحتها اللجنة عليك؟",
+      "en": "How clear were the questions the panel asked you?",
+      "scale": "CLARITY",
+      "condition": "Technical interview attended; one of 8 questions in this stage block",
+      "action": "Review question wording and jargon.",
+      "source": "Original wording; theme: Relevance, opportunity to demonstrate skills (SurveyMonkey / Greenhouse interview themes)"
+    },
+    {
+      "id": "T04",
+      "stage": "Technical interview",
+      "use": "Core",
+      "ar": "كيف تقيّم تنسيق اللجنة فيما بينها (تبادل الأدوار وعدم تكرار الأسئلة)؟",
+      "en": "How well coordinated was the panel (taking turns, not repeating questions)?",
+      "scale": "QUALITY",
+      "condition": "Technical interview attended; one of 8 questions in this stage block",
+      "action": "Agree panel roles before the interview.",
+      "source": "Original wording; theme: Relevance, opportunity to demonstrate skills (SurveyMonkey / Greenhouse interview themes)"
+    },
+    {
+      "id": "T05",
+      "stage": "Technical interview",
+      "use": "Core",
+      "ar": "ما مدى استعداد اللجنة، مثل اطلاعها على سيرتك الذاتية؟",
+      "en": "How prepared did the panel seem, for example familiar with your CV?",
+      "scale": "PREPARED",
+      "condition": "Technical interview attended; one of 8 questions in this stage block",
+      "action": "Share candidate files with the panel beforehand.",
+      "source": "Original wording; theme: Relevance, opportunity to demonstrate skills (SurveyMonkey / Greenhouse interview themes)"
+    },
+    {
+      "id": "T06",
+      "stage": "Technical interview",
+      "use": "Core",
+      "ar": "هل بدا لك أي شيء في هذه المقابلة غير عادل أو غير لائق؟",
+      "en": "Did anything in this interview feel unfair or inappropriate?",
+      "scale": "YES_NO_PREFER_NOT",
+      "condition": "Technical interview attended; one of 8 questions in this stage block",
+      "action": "HR to review; do not assume misconduct and do not rank individuals from small samples.",
+      "source": "Original wording; theme: Relevance, opportunity to demonstrate skills (SurveyMonkey / Greenhouse interview themes)"
+    },
+    {
+      "id": "T07",
+      "stage": "Technical interview",
+      "use": "Core",
+      "ar": "ما مدى كفاية الوقت المتاح لك للإجابة عن كل سؤال؟",
+      "en": "How sufficient was the time you had to answer each question?",
+      "scale": "SUFFICIENCY",
+      "condition": "Technical interview attended; one of 8 questions in this stage block",
+      "action": "Review interview timing.",
+      "source": "Original wording; theme: Relevance, opportunity to demonstrate skills (SurveyMonkey / Greenhouse interview themes)"
+    },
+    {
+      "id": "T08",
+      "stage": "Technical interview",
+      "use": "Core",
+      "ar": "هل من شيء آخر تودّ مشاركته، بما في ذلك ما بدا غير عادل أو غير لائق إن أجبت بنعم؟ يُرجى عدم ذكر أسماء.",
+      "en": "Anything else to share, including what felt unfair or inappropriate if you answered Yes above? Please avoid names.",
+      "scale": "TEXT",
+      "condition": "Technical interview attended; one of 8 questions in this stage block",
+      "action": "Code themes neutrally; protect identities.",
+      "source": "Original wording; theme: Relevance, opportunity to demonstrate skills (SurveyMonkey / Greenhouse interview themes)"
+    },
+    {
+      "id": "A01",
+      "stage": "Assessment",
+      "use": "Core",
+      "ar": "ما مدى وضوح تعليمات الاختبار؟",
+      "en": "How clear were the assessment instructions?",
+      "scale": "CLARITY",
+      "condition": "Assessment attempted; one of 8 questions in this stage block",
+      "action": "Rewrite instructions and test them with a colleague.",
+      "source": "Original wording; theme: Simplicity, fairness, reasonable assessments (AIHR foundations)"
+    },
+    {
+      "id": "A02",
+      "stage": "Assessment",
+      "use": "Core",
+      "ar": "ما مدى معقولية الوقت الذي تطلّبه الاختبار؟",
+      "en": "How reasonable was the time commitment the assessment required?",
+      "scale": "REASONABLENESS",
+      "condition": "Assessment attempted; one of 8 questions in this stage block",
+      "action": "Review task length with the hiring manager.",
+      "source": "Original wording; theme: Simplicity, fairness, reasonable assessments (AIHR foundations)"
+    },
+    {
+      "id": "A03",
+      "stage": "Assessment",
+      "use": "Core",
+      "ar": "ما مدى مطابقة مهام الاختبار للدور كما فهمته؟",
+      "en": "How closely did the assessment tasks match the role as you understood it?",
+      "scale": "RELEVANCE",
+      "condition": "Assessment attempted; one of 8 questions in this stage block",
+      "action": "Review assessment content against role requirements.",
+      "source": "Original wording; theme: Simplicity, fairness, reasonable assessments (AIHR foundations)"
+    },
+    {
+      "id": "A04",
+      "stage": "Assessment",
+      "use": "Core",
+      "ar": "هل أعاقك أي مما يلي؟ اختر كل ما ينطبق.",
+      "en": "Did any of the following hinder you? Select all that apply.",
+      "scale": "ASSESSMENT_BARRIER_MULTI",
+      "condition": "Assessment attempted; one of 8 questions in this stage block",
+      "action": "Review technical and accessibility barriers.",
+      "source": "Original wording; theme: Simplicity, fairness, reasonable assessments (AIHR foundations)"
+    },
+    {
+      "id": "A05",
+      "stage": "Assessment",
+      "use": "Core",
+      "ar": "هل أُخبرت مسبقًا بمحتوى الاختبار ومدته؟",
+      "en": "Were you told in advance what the assessment would cover and how long it would take?",
+      "scale": "YES_NO",
+      "condition": "Assessment attempted; one of 8 questions in this stage block",
+      "action": "Add content and duration to the invitation.",
+      "source": "Original wording; theme: Simplicity, fairness, reasonable assessments (AIHR foundations)"
+    },
+    {
+      "id": "A06",
+      "stage": "Assessment",
+      "use": "Core",
+      "ar": "أتاح لي الاختبار فرصة عادلة لإظهار قدراتي.",
+      "en": "The assessment gave me a fair chance to show my abilities.",
+      "scale": "AGREEMENT",
+      "condition": "Assessment attempted; one of 8 questions in this stage block",
+      "action": "Review fairness of the assessment design.",
+      "source": "Original wording; theme: Simplicity, fairness, reasonable assessments (AIHR foundations)"
+    },
+    {
+      "id": "A07",
+      "stage": "Assessment",
+      "use": "Core",
+      "ar": "بعد الاختبار، كم انتظرت لمعرفة الخطوة التالية؟",
+      "en": "After the assessment, how long did you wait to hear what happens next?",
+      "scale": "WAIT_TIME",
+      "condition": "Assessment attempted; one of 8 questions in this stage block",
+      "action": "Compare with actual turnaround records.",
+      "source": "Original wording; theme: Simplicity, fairness, reasonable assessments (AIHR foundations)"
+    },
+    {
+      "id": "A08",
+      "stage": "Assessment",
+      "use": "Core",
+      "ar": "ما الذي كنت ستغيّره في الاختبار؟",
+      "en": "What would you change about the assessment?",
+      "scale": "TEXT",
+      "condition": "Assessment attempted; one of 8 questions in this stage block",
+      "action": "Code themes neutrally.",
+      "source": "Original wording; theme: Simplicity, fairness, reasonable assessments (AIHR foundations)"
+    },
+    {
+      "id": "F01",
+      "stage": "Final behavioral interview",
+      "use": "Core",
+      "ar": "ما مقدار الفرصة التي أُتيحت لك لاستخدام أمثلة حقيقية من خبرتك؟",
+      "en": "How much opportunity did you have to use real examples from your experience?",
+      "scale": "OPPORTUNITY",
+      "condition": "Final behavioral interview attended; one of 8 questions in this stage block",
+      "action": "Calibrate behavioral probes.",
+      "source": "Original wording; theme: Panel coordination, inclusion (SurveyMonkey interview themes)"
+    },
+    {
+      "id": "F02",
+      "stage": "Final behavioral interview",
+      "use": "Core",
+      "ar": "كيف تقيّم تنسيق أعضاء اللجنة أثناء النقاش؟",
+      "en": "How well coordinated was the panel during the discussion?",
+      "scale": "QUALITY",
+      "condition": "Final behavioral interview attended; one of 8 questions in this stage block",
+      "action": "Agree panel roles for large panels.",
+      "source": "Original wording; theme: Panel coordination, inclusion (SurveyMonkey interview themes)"
+    },
+    {
+      "id": "F03",
+      "stage": "Final behavioral interview",
+      "use": "Core",
+      "ar": "ما مدى وضوح الأسئلة السلوكية التي طُرحت عليك؟",
+      "en": "How clear were the behavioral questions you were asked?",
+      "scale": "CLARITY",
+      "condition": "Final behavioral interview attended; one of 8 questions in this stage block",
+      "action": "Review question wording.",
+      "source": "Original wording; theme: Panel coordination, inclusion (SurveyMonkey interview themes)"
+    },
+    {
+      "id": "F04",
+      "stage": "Final behavioral interview",
+      "use": "Core",
+      "ar": "ما مدى كفاية الوقت المتاح لك للتفكير والإجابة؟",
+      "en": "How sufficient was the time you had to think and answer?",
+      "scale": "SUFFICIENCY",
+      "condition": "Final behavioral interview attended; one of 8 questions in this stage block",
+      "action": "Allow sufficient answer time.",
+      "source": "Original wording; theme: Panel coordination, inclusion (SurveyMonkey interview themes)"
+    },
+    {
+      "id": "F05",
+      "stage": "Final behavioral interview",
+      "use": "Core",
+      "ar": "ما مدى شعورك بالراحة لتكون على طبيعتك أمام اللجنة؟",
+      "en": "How comfortable did you feel being yourself in front of the panel?",
+      "scale": "COMFORT",
+      "condition": "Final behavioral interview attended; one of 8 questions in this stage block",
+      "action": "Review panel size and opening.",
+      "source": "Original wording; theme: Panel coordination, inclusion (SurveyMonkey interview themes)"
+    },
+    {
+      "id": "F06",
+      "stage": "Final behavioral interview",
+      "use": "Core",
+      "ar": "خرجت بصورة واضحة عن الدور والفريق وما هو متوقع.",
+      "en": "I finished with a clear picture of the role, the team and what is expected.",
+      "scale": "AGREEMENT",
+      "condition": "Final behavioral interview attended; one of 8 questions in this stage block",
+      "action": "Review closing briefing.",
+      "source": "Original wording; theme: Panel coordination, inclusion (SurveyMonkey interview themes)"
+    },
+    {
+      "id": "F07",
+      "stage": "Final behavioral interview",
+      "use": "Core",
+      "ar": "هل بدا لك أي شيء في هذه المقابلة غير عادل أو غير لائق؟",
+      "en": "Did anything in this interview feel unfair or inappropriate?",
+      "scale": "YES_NO_PREFER_NOT",
+      "condition": "Final behavioral interview attended; one of 8 questions in this stage block",
+      "action": "HR to review; do not assume misconduct and do not rank individuals from small samples.",
+      "source": "Original wording; theme: Panel coordination, inclusion (SurveyMonkey interview themes)"
+    },
+    {
+      "id": "F08",
+      "stage": "Final behavioral interview",
+      "use": "Core",
+      "ar": "ما الشيء الواحد الذي كان سيحسّن مقابلتك النهائية؟",
+      "en": "What one thing would have improved your final interview?",
+      "scale": "TEXT",
+      "condition": "Final behavioral interview attended; one of 8 questions in this stage block",
+      "action": "Code themes neutrally.",
+      "source": "Original wording; theme: Panel coordination, inclusion (SurveyMonkey interview themes)"
+    },
+    {
       "id": "R01",
       "stage": "Reference / background checks",
       "use": "Core",
-      "ar": "إلى أي درجة كان الغرض من التحقق من المراجع أو الخلفية واضحًا لك؟",
-      "en": "How clear was the purpose of the reference or background checks to you?",
+      "ar": "ما مدى وضوح الغرض من التحقق من المرجعيات والخلفية؟",
+      "en": "How clear was the purpose of the reference and background checks?",
       "scale": "CLARITY",
-      "condition": "Candidate was informed checks were initiated; label the actual check performed",
-      "action": "Review the explanation provided; do not ask the candidate to evaluate unseen checks.",
-      "source": "User requirements / original design"
+      "condition": "Reference / background checks reached; one of 8 questions in this stage block",
+      "action": "Explain purpose in the request message.",
+      "source": "Original wording; theme: Transparency, respect for personal information (AIHR foundations)"
     },
     {
       "id": "R02",
       "stage": "Reference / background checks",
-      "use": "Optional",
-      "ar": "إلى أي درجة كانت المعلومات المطلوب منك توفيرها لإتمام التحقق واضحة؟",
-      "en": "How clear was the information you were asked to provide for the checks?",
+      "use": "Core",
+      "ar": "ما مدى وضوح المعلومات والمستندات المطلوبة منك؟",
+      "en": "How clear was the information and documents you were asked to provide?",
       "scale": "CLARITY",
-      "condition": "Candidate was asked for check-related information",
-      "action": "Review requests and instructions; do not collect reference names or check findings in the survey.",
-      "source": "User requirements / original design"
+      "condition": "Reference / background checks reached; one of 8 questions in this stage block",
+      "action": "Provide a clear checklist.",
+      "source": "Original wording; theme: Transparency, respect for personal information (AIHR foundations)"
+    },
+    {
+      "id": "R03",
+      "stage": "Reference / background checks",
+      "use": "Core",
+      "ar": "ما مدى معقولية الجهد المطلوب لتقديمها؟",
+      "en": "How reasonable was the effort needed to provide it?",
+      "scale": "REASONABLENESS",
+      "condition": "Reference / background checks reached; one of 8 questions in this stage block",
+      "action": "Review the volume of information requested.",
+      "source": "Original wording; theme: Transparency, respect for personal information (AIHR foundations)"
+    },
+    {
+      "id": "R04",
+      "stage": "Reference / background checks",
+      "use": "Core",
+      "ar": "هل أُبلغت قبل التواصل مع مرجعياتك؟",
+      "en": "Were you informed before your references were contacted?",
+      "scale": "YES_NO",
+      "condition": "Reference / background checks reached; one of 8 questions in this stage block",
+      "action": "Always inform candidates before contacting references.",
+      "source": "Original wording; theme: Transparency, respect for personal information (AIHR foundations)"
+    },
+    {
+      "id": "R05",
+      "stage": "Reference / background checks",
+      "use": "Core",
+      "ar": "شعرت أن معلوماتي الشخصية عُوملت باحترام وعناية.",
+      "en": "I felt my personal information was handled with respect and care.",
+      "scale": "AGREEMENT",
+      "condition": "Reference / background checks reached; one of 8 questions in this stage block",
+      "action": "Review handling and communication of personal data.",
+      "source": "Original wording; theme: Transparency, respect for personal information (AIHR foundations)"
+    },
+    {
+      "id": "R06",
+      "stage": "Reference / background checks",
+      "use": "Core",
+      "ar": "كيف تقيّم التحديثات التي وصلتك أثناء إجراء التحقق؟",
+      "en": "How would you rate the updates you received while the checks were in progress?",
+      "scale": "QUALITY",
+      "condition": "Reference / background checks reached; one of 8 questions in this stage block",
+      "action": "Agree an update schedule.",
+      "source": "Original wording; theme: Transparency, respect for personal information (AIHR foundations)"
+    },
+    {
+      "id": "R07",
+      "stage": "Reference / background checks",
+      "use": "Core",
+      "ar": "مقارنة بتوقعاتك، كم استغرق التحقق؟",
+      "en": "Compared with what you expected, how long did the checks take?",
+      "scale": "EXPECTED_DURATION",
+      "condition": "Reference / background checks reached; one of 8 questions in this stage block",
+      "action": "Communicate expected duration up front.",
+      "source": "Original wording; theme: Transparency, respect for personal information (AIHR foundations)"
+    },
+    {
+      "id": "R08",
+      "stage": "Reference / background checks",
+      "use": "Core",
+      "ar": "ما الذي يمكننا تحسينه في عملية التحقق من المرجعيات والخلفية؟",
+      "en": "What could we improve about the reference and background check process?",
+      "scale": "TEXT",
+      "condition": "Reference / background checks reached; one of 8 questions in this stage block",
+      "action": "Code themes neutrally.",
+      "source": "Original wording; theme: Transparency, respect for personal information (AIHR foundations)"
     },
     {
       "id": "O01",
       "stage": "Offer",
       "use": "Core",
-      "ar": "قبل توقيع العرض، إلى أي درجة كانت شروطه واضحة لك؟",
-      "en": "Before signing, how clear were the terms of the offer to you?",
+      "ar": "ما مدى وضوح شروط العرض الوظيفي؟",
+      "en": "How clear were the terms of the offer?",
       "scale": "CLARITY",
-      "condition": "Offer signed only",
-      "action": "Review offer explanation and opportunities to clarify terms.",
-      "source": "User requirements / original design"
+      "condition": "Offer signed; one of 8 questions in this stage block",
+      "action": "Review the offer explanation and provide a checklist of terms.",
+      "source": "Original wording; theme: Clarity, expectation match (Qualtrics / AIHR themes)"
     },
     {
       "id": "O02",
       "stage": "Offer",
-      "use": "Optional",
+      "use": "Core",
       "ar": "هل وجدت في العرض اختلافًا مهمًا عما فهمته من المناقشات السابقة؟",
       "en": "Did the offer contain any important difference from what you understood from earlier discussions?",
       "scale": "OFFER_DIFFERENCE",
-      "condition": "Offer received; signed or withdrawn outcome; optional explanation",
+      "condition": "Offer signed; one of 8 questions in this stage block",
       "action": "Review expectation mismatches; do not treat every difference as a breach.",
-      "source": "User requirements / original design"
+      "source": "Original wording; theme: Clarity, expectation match (Qualtrics / AIHR themes)"
     },
     {
       "id": "O03",
       "stage": "Offer",
-      "use": "Optional",
-      "ar": "كيف تقيّم الوقت الذي أُتيح لك لمراجعة العرض قبل اتخاذ قرارك؟",
-      "en": "How would you rate the time you were given to review the offer before deciding?",
+      "use": "Core",
+      "ar": "ما مدى معقولية المهلة التي مُنحت لك لمراجعة العرض واتخاذ القرار؟",
+      "en": "How reasonable was the time you were given to review the offer and decide?",
       "scale": "REASONABLENESS",
-      "condition": "Offer received",
-      "action": "Review offer deadlines and candidate requests for clarification.",
-      "source": "User requirements / original design"
+      "condition": "Offer signed; one of 8 questions in this stage block",
+      "action": "Review the standard decision window.",
+      "source": "Original wording; theme: Clarity, expectation match (Qualtrics / AIHR themes)"
+    },
+    {
+      "id": "O04",
+      "stage": "Offer",
+      "use": "Core",
+      "ar": "أي أجزاء من العرض احتاجت إلى توضيح أكثر؟ اختر كل ما ينطبق.",
+      "en": "Which parts of the offer needed more clarification? Select all that apply.",
+      "scale": "OFFER_CLARIFY_MULTI",
+      "condition": "Offer signed; one of 8 questions in this stage block",
+      "action": "Identify which terms need clearer explanation.",
+      "source": "Original wording; theme: Clarity, expectation match (Qualtrics / AIHR themes)"
+    },
+    {
+      "id": "O05",
+      "stage": "Offer",
+      "use": "Core",
+      "ar": "كيف تقيّم الطريقة التي قُدّم بها العرض إليك؟",
+      "en": "How would you rate the way the offer was delivered to you?",
+      "scale": "QUALITY",
+      "condition": "Offer signed; one of 8 questions in this stage block",
+      "action": "Review offer delivery and tone.",
+      "source": "Original wording; theme: Clarity, expectation match (Qualtrics / AIHR themes)"
+    },
+    {
+      "id": "O06",
+      "stage": "Offer",
+      "use": "Core",
+      "ar": "أعرف ما الذي سيحدث بين توقيع العرض ويوم مباشرتي.",
+      "en": "I know what will happen between signing and my first day.",
+      "scale": "AGREEMENT",
+      "condition": "Offer signed; one of 8 questions in this stage block",
+      "action": "Send a clear pre-boarding checklist.",
+      "source": "Original wording; theme: Clarity, expectation match (Qualtrics / AIHR themes)"
+    },
+    {
+      "id": "O07",
+      "stage": "Offer",
+      "use": "Core",
+      "ar": "هل تطابقت تجربة التوظيف مع ما قيل لك عن الشركة؟",
+      "en": "Did the hiring process match what you had been told about the company?",
+      "scale": "YES_NO_UNSURE",
+      "condition": "Offer signed; one of 8 questions in this stage block",
+      "action": "Compare employer-brand promise with experience.",
+      "source": "Original wording; theme: Clarity, expectation match (Qualtrics / AIHR themes)"
+    },
+    {
+      "id": "O08",
+      "stage": "Offer",
+      "use": "Core",
+      "ar": "ما أكثر ما أثّر في قرارك بالقبول، وما الذي يمكننا تحسينه في مرحلة العرض؟",
+      "en": "What mattered most in your decision to accept, and what could we do better at the offer stage?",
+      "scale": "TEXT",
+      "condition": "Offer signed; one of 8 questions in this stage block",
+      "action": "Code themes neutrally.",
+      "source": "Original wording; theme: Clarity, expectation match (Qualtrics / AIHR themes)"
     },
     {
       "id": "W01",
@@ -628,6 +1046,56 @@
       "ar": "إجابة اختيارية؛ لا تذكر أسماء أو تفاصيل تكشف هويتك في مسار الرفض",
       "en": "Optional free text; do not include names or identifying details in the rejection pathway",
       "notes": "Do not require comments or automatically infer truth, motive or misconduct from them."
+    },
+    "PREPARED": {
+      "ar": "1 غير مستعدين إطلاقًا | 2 غير مستعدين غالبًا | 3 مستعدون جزئيًا | 4 مستعدون | 5 مستعدون تمامًا",
+      "en": "1 Not at all prepared | 2 Mostly unprepared | 3 Partly prepared | 4 Prepared | 5 Fully prepared",
+      "notes": "Not applicable / Cannot recall."
+    },
+    "AGREEMENT": {
+      "ar": "1 لا أوافق إطلاقًا | 2 لا أوافق | 3 محايد | 4 أوافق | 5 أوافق بشدة",
+      "en": "1 Strongly disagree | 2 Disagree | 3 Neither agree nor disagree | 4 Agree | 5 Strongly agree",
+      "notes": "Not applicable / Cannot recall."
+    },
+    "COMFORT": {
+      "ar": "1 غير مرتاح إطلاقًا | 2 غير مرتاح | 3 محايد | 4 مرتاح | 5 مرتاح جدًا",
+      "en": "1 Very uncomfortable | 2 Uncomfortable | 3 Neutral | 4 Comfortable | 5 Very comfortable",
+      "notes": "Prefer not to answer."
+    },
+    "TIMING_START": {
+      "ar": "في الموعد تمامًا | تأخر أقل من 10 دقائق | تأخر من 10 إلى 30 دقيقة | تأخر أكثر من 30 دقيقة",
+      "en": "On time | Less than 10 minutes late | 10 to 30 minutes late | More than 30 minutes late",
+      "notes": "Compare with scheduling records; Cannot recall is added automatically."
+    },
+    "WAIT_TIME": {
+      "ar": "في اليوم نفسه | من 1 إلى 3 أيام | من 4 إلى 7 أيام | أكثر من أسبوع | لم يصلني رد",
+      "en": "Same day | 1 to 3 days | 4 to 7 days | More than a week | I never heard back",
+      "notes": "Compare with actual turnaround records."
+    },
+    "EXPECTED_DURATION": {
+      "ar": "أقصر مما توقعت | كما توقعت تقريبًا | أطول مما توقعت | لم تكن لدي توقعات",
+      "en": "Shorter than expected | About what I expected | Longer than expected | I had no expectation",
+      "notes": "Cannot recall is added automatically."
+    },
+    "APPLICATION_FRICTION_MULTI": {
+      "ar": "نموذج تقديم طويل | إعادة إدخال بيانات موجودة في سيرتي الذاتية | أخطاء تقنية أو بطء المنصة | مشاكل في رفع المستندات | صعوبة الاستخدام على الهاتف | متطلبات غير واضحة | لم يجعل شيء التقديم أصعب | أخرى",
+      "en": "Long application form | Re-entering details already in my CV | Technical errors or slow platform | Problems uploading documents | Hard to use on my phone | Unclear requirements | Nothing made it harder | Other",
+      "notes": "Select all that apply."
+    },
+    "SCREENING_TOPICS_MULTI": {
+      "ar": "الدور والمسؤوليات | آلية مناقشة الراتب المتوقع | ساعات العمل والموقع | مراحل التوظيف القادمة | نبذة عن الشركة | لا شيء مما سبق",
+      "en": "The role and responsibilities | How salary expectations are handled | Working hours and location | The hiring steps ahead | About the company | None of these",
+      "notes": "Select all that apply."
+    },
+    "ASSESSMENT_BARRIER_MULTI": {
+      "ar": "لا عوائق | مشكلة تقنية | تعليمات غير واضحة | صعوبة في تنظيم الوقت | حاجة لدعم في إمكانية الوصول | عائق آخر",
+      "en": "No barriers | Technical issue | Unclear instructions | Difficulty finding the time | Needed accessibility support | Other",
+      "notes": "Select all that apply."
+    },
+    "OFFER_CLARIFY_MULTI": {
+      "ar": "الراتب | المزايا | تاريخ المباشرة | ساعات العمل | فترة التجربة | المسمى الوظيفي والمهام | لم يحتج شيء إلى توضيح | أخرى",
+      "en": "Salary | Benefits | Start date | Working hours | Probation period | Job title and duties | Nothing needed clarification | Other",
+      "notes": "Select all that apply."
     }
   }
 }
