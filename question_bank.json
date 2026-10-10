@@ -1,0 +1,633 @@
+{
+  "questions": [
+    {
+      "id": "B01",
+      "stage": "Employer brand",
+      "use": "Core",
+      "ar": "كيف وصلت إليك هذه الفرصة الوظيفية لأول مرة؟",
+      "en": "Where did you first come across this particular job opportunity?",
+      "scale": "JOB_SOURCE",
+      "condition": "All outcomes; single choice",
+      "action": "Compare sourcing channels without confusing them with prior company awareness.",
+      "source": "https://www.qualtrics.com/support/employee-experience/creating-ee-project/common-use-cases-ee/candidate-experience-program/"
+    },
+    {
+      "id": "B02",
+      "stage": "Employer brand",
+      "use": "Core",
+      "ar": "قبل أن تعرف بهذه الفرصة، هل كنت قد سمعت عن ثاندر سبلاي؟",
+      "en": "Before learning about this vacancy, had you heard of Thunder Supply?",
+      "scale": "YES_NO_UNSURE",
+      "condition": "All outcomes",
+      "action": "Separate existing awareness from awareness created by recruitment.",
+      "source": "https://support.greenhouse.io/hc/en-us/articles/20996918310555-Sample-survey-questions"
+    },
+    {
+      "id": "B03",
+      "stage": "Employer brand",
+      "use": "Conditional",
+      "ar": "من أين كانت لديك معلومات عن الشركة قبل هذه الفرصة؟",
+      "en": "Which sources had given you information about the company before this opportunity?",
+      "scale": "REPUTATION_SOURCES",
+      "condition": "B02 = Yes; select all that apply",
+      "action": "Identify reputation channels. Do not request the names of individuals.",
+      "source": "https://www.qualtrics.com/support/employee-experience/creating-ee-project/common-use-cases-ee/candidate-experience-program/"
+    },
+    {
+      "id": "B04",
+      "stage": "Employer brand",
+      "use": "Conditional",
+      "ar": "بالتفكير في الفترة قبل التقديم، كيف تتذكر انطباعك عن الشركة كجهة عمل؟",
+      "en": "Thinking back to before you applied, how do you remember viewing the company as an employer?",
+      "scale": "IMPRESSION",
+      "condition": "B02 = Yes; allow No clear impression / Cannot recall",
+      "action": "Retrospective perception only; not a prospectively measured baseline.",
+      "source": "User requirements / original design"
+    },
+    {
+      "id": "B05",
+      "stage": "Employer brand",
+      "use": "Core",
+      "ar": "بعد تجربة التوظيف التي مررت بها، ما انطباعك الحالي عن الشركة كجهة عمل؟",
+      "en": "After the recruitment experience you have had, what is your current impression of the company as an employer?",
+      "scale": "IMPRESSION",
+      "condition": "All outcomes; allow Not enough information",
+      "action": "Track employer impression separately by outcome and comparable journey depth.",
+      "source": "User requirements / original design"
+    },
+    {
+      "id": "B06",
+      "stage": "Employer brand",
+      "use": "Optional",
+      "ar": "ما الذي سمعته أو توقعته قبل التقديم، وكيف وافقت تجربتك ذلك أو اختلفت عنه، إن وُجد؟",
+      "en": "What had you heard or expected before applying, and how did your experience match or differ from that, if at all?",
+      "scale": "TEXT",
+      "condition": "B02 = Yes; optional; do not request names",
+      "action": "Code themes neutrally: expectations confirmed, improved, worsened, mixed or unclear. Do not label claims false.",
+      "source": "User requirements / original design"
+    },
+    {
+      "id": "P01",
+      "stage": "Application",
+      "use": "Core",
+      "ar": "كيف تقيّم سهولة إكمال تقديمك لهذه الوظيفة؟",
+      "en": "How easy or difficult was it to complete your application for this vacancy?",
+      "scale": "EASE",
+      "condition": "Application completed; N/A for a directly sourced person who did not apply",
+      "action": "Review form friction or document requirements if difficult.",
+      "source": "https://www.surveymonkey.com/learn/employee-feedback/candidate-experience-survey/"
+    },
+    {
+      "id": "P02",
+      "stage": "Application",
+      "use": "Optional",
+      "ar": "قبل التقديم، إلى أي درجة كانت المسؤوليات الرئيسية للوظيفة واضحة لك؟",
+      "en": "Before applying, how clear were the main responsibilities of this vacancy to you?",
+      "scale": "CLARITY",
+      "condition": "A vacancy description was seen; otherwise N/A",
+      "action": "Revise the job advertisement if clarity is low.",
+      "source": "https://www.surveymonkey.com/learn/employee-feedback/candidate-experience-survey/"
+    },
+    {
+      "id": "S01",
+      "stage": "Screening call",
+      "use": "Core",
+      "ar": "إلى أي درجة ساعدتك المكالمة الأولية على فهم الخطوة التالية في التوظيف؟",
+      "en": "How clearly did the screening call establish what would happen next in the hiring process?",
+      "scale": "CLARITY",
+      "condition": "Screening call completed",
+      "action": "Improve the screening closing explanation and next-step message.",
+      "source": "User requirements / original design"
+    },
+    {
+      "id": "S02",
+      "stage": "Screening call",
+      "use": "Optional",
+      "ar": "كيف تقيّم الطريقة التي نوقشت بها توقعاتك للراتب خلال المكالمة؟",
+      "en": "How would you rate the way your salary expectations were discussed during the call?",
+      "scale": "QUALITY",
+      "condition": "Salary expectations were discussed; otherwise N/A",
+      "action": "Review the tone and clarity of the salary discussion; do not request salary amounts in this survey.",
+      "source": "User requirements / original design"
+    },
+    {
+      "id": "S03",
+      "stage": "Screening call",
+      "use": "Optional",
+      "ar": "إلى أي درجة كانت تعليمات الجزء المتعلق باللغة الإنجليزية واضحة؟",
+      "en": "How clear were the instructions for the English-language part of the screening call?",
+      "scale": "CLARITY",
+      "condition": "English check completed; otherwise N/A",
+      "action": "Clarify what candidates should do; this does not measure their English ability.",
+      "source": "User requirements / original design"
+    },
+    {
+      "id": "H01",
+      "stage": "First interview — HR",
+      "use": "Core",
+      "ar": "إلى أي درجة أتاحت لك مقابلة الموارد البشرية الأولى شرح خبراتك ذات الصلة؟",
+      "en": "How much opportunity did the first HR interview give you to explain your relevant experience?",
+      "scale": "OPPORTUNITY",
+      "condition": "First HR interview completed",
+      "action": "Review the interview structure and time allocated to candidate examples.",
+      "source": "User requirements / original design"
+    },
+    {
+      "id": "H02",
+      "stage": "First interview — HR",
+      "use": "Optional",
+      "ar": "بعد مقابلة الموارد البشرية الأولى، إلى أي درجة أصبحت طبيعة العمل المتوقعة واضحة لك؟",
+      "en": "After the first HR interview, how clear was the work you would be expected to do?",
+      "scale": "CLARITY",
+      "condition": "First HR interview completed",
+      "action": "Review how the role is explained; separate it from the job-ad rating.",
+      "source": "User requirements / original design"
+    },
+    {
+      "id": "T01",
+      "stage": "Second interview — Technical",
+      "use": "Core",
+      "ar": "إلى أي درجة أتاحت لك المقابلة التقنية عرض مهارات مرتبطة بمتطلبات الوظيفة؟",
+      "en": "How much opportunity did the technical interview give you to demonstrate skills relevant to this role?",
+      "scale": "OPPORTUNITY",
+      "condition": "Technical interview completed",
+      "action": "Review whether prompts allow relevant examples, rather than judging candidate technical performance.",
+      "source": "User requirements / original design"
+    },
+    {
+      "id": "T02",
+      "stage": "Second interview — Technical",
+      "use": "Optional",
+      "ar": "إلى أي درجة كانت الموضوعات التقنية التي نوقشت مرتبطة بالعمل المتوقع في هذه الوظيفة؟",
+      "en": "How closely did the technical topics discussed connect to the work expected in this role?",
+      "scale": "RELEVANCE",
+      "condition": "Technical interview completed; candidate may choose Cannot judge",
+      "action": "Review the competency-to-role mapping. This is candidate perception, not proof of assessment validity.",
+      "source": "User requirements / original design"
+    },
+    {
+      "id": "A01",
+      "stage": "Assessment — between interviews 2 and 3",
+      "use": "Core",
+      "ar": "كيف تقيّم مناسبة الوقت المطلوب لإكمال الاختبار بالنسبة لهذه الوظيفة؟",
+      "en": "How reasonable was the time commitment required for the assessment for this role?",
+      "scale": "REASONABLENESS",
+      "condition": "Assessment completed or attempted; otherwise do not show",
+      "action": "Review assessment burden and stated expected completion time.",
+      "source": "https://support.greenhouse.io/hc/en-us/articles/20996918310555-Sample-survey-questions"
+    },
+    {
+      "id": "A02",
+      "stage": "Assessment — between interviews 2 and 3",
+      "use": "Optional",
+      "ar": "إلى أي درجة كانت تعليمات الاختبار واضحة؟",
+      "en": "How clear were the assessment instructions?",
+      "scale": "CLARITY",
+      "condition": "Assessment received or attempted",
+      "action": "Clarify instructions, deadlines and submission steps.",
+      "source": "https://support.greenhouse.io/hc/en-us/articles/20067959125787-Best-practices-for-writing-survey-questions"
+    },
+    {
+      "id": "A03",
+      "stage": "Assessment — between interviews 2 and 3",
+      "use": "Optional",
+      "ar": "إلى أي درجة كانت مهام الاختبار مرتبطة بمتطلبات الوظيفة كما فهمتها؟",
+      "en": "How closely did the assessment tasks match the role requirements as you understood them?",
+      "scale": "RELEVANCE",
+      "condition": "Assessment attempted; allow Cannot judge",
+      "action": "Review assessment relevance; do not treat perceived relevance as psychometric validation.",
+      "source": "https://support.greenhouse.io/hc/en-us/articles/20996918310555-Sample-survey-questions"
+    },
+    {
+      "id": "A04",
+      "stage": "Assessment — between interviews 2 and 3",
+      "use": "Optional",
+      "ar": "هل واجهت عائقًا في الوصول إلى الاختبار أو إكماله؟",
+      "en": "Did anything prevent or hinder you from accessing or completing the assessment?",
+      "scale": "ASSESSMENT_BARRIER",
+      "condition": "Assessment received or attempted; select all that apply",
+      "action": "Route technical access issues to the assessment provider; review timing or accessibility support.",
+      "source": "User requirements / original design"
+    },
+    {
+      "id": "F01",
+      "stage": "Third interview — Behavioral",
+      "use": "Core",
+      "ar": "إلى أي درجة أتاحت لك المقابلة النهائية استخدام أمثلة فعلية من خبرتك لشرح طريقة عملك؟",
+      "en": "How much opportunity did the final interview give you to use real examples from your experience to explain how you work?",
+      "scale": "OPPORTUNITY",
+      "condition": "Final behavioral interview completed",
+      "action": "Review behavioral prompts, probing and the time available for examples.",
+      "source": "User requirements / original design"
+    },
+    {
+      "id": "F02",
+      "stage": "Third interview — Behavioral",
+      "use": "Optional",
+      "ar": "كيف تقيّم تنظيم الحوار بين أعضاء لجنة المقابلة النهائية؟",
+      "en": "How would you rate the coordination of the discussion among the final interview panel members?",
+      "scale": "QUALITY",
+      "condition": "Final behavioral interview completed",
+      "action": "Review panel roles, interruptions and repeated questioning.",
+      "source": "User requirements / original design"
+    },
+    {
+      "id": "I01",
+      "stage": "Interview detail — reusable",
+      "use": "Core",
+      "ar": "كيف تقيّم احترافية تعامل المقابلين خلال [المقابلة]؟",
+      "en": "How would you rate the professional conduct of the interviewers during [interview]?",
+      "scale": "QUALITY",
+      "condition": "Repeat for each attended HR / technical / final interview in full version; compact version uses interview dropdown",
+      "action": "Review interviewer conduct at the relevant stage; do not rank individuals from small samples.",
+      "source": "https://www.surveymonkey.com/templates/candidate-experience-survey-template/"
+    },
+    {
+      "id": "I02",
+      "stage": "Interview detail — reusable",
+      "use": "Optional",
+      "ar": "إلى أي درجة كانت صياغة أسئلة [المقابلة] واضحة؟",
+      "en": "How clear was the wording of the questions asked during [interview]?",
+      "scale": "CLARITY",
+      "condition": "Relevant interview attended",
+      "action": "Review jargon, ambiguous questions and interview preparation.",
+      "source": "https://support.greenhouse.io/hc/en-us/articles/20067959125787-Best-practices-for-writing-survey-questions"
+    },
+    {
+      "id": "I03",
+      "stage": "Interview detail — reusable",
+      "use": "Optional",
+      "ar": "كيف تقيّم التزام [المقابلة] بموعد البدء الذي أُبلغت به؟",
+      "en": "How would you rate adherence to the start time communicated for [interview]?",
+      "scale": "QUALITY",
+      "condition": "Relevant interview attended; allow No set time / Cannot recall",
+      "action": "Compare candidate feedback with actual scheduling records.",
+      "source": "https://www.surveymonkey.com/templates/candidate-experience-survey-template/"
+    },
+    {
+      "id": "I04",
+      "stage": "Interview detail — reusable",
+      "use": "Optional",
+      "ar": "إلى أي درجة كان الوقت المتاح لك للإجابة خلال [المقابلة] كافيًا؟",
+      "en": "How sufficient was the time available for you to answer during [interview]?",
+      "scale": "SUFFICIENCY",
+      "condition": "Relevant interview attended",
+      "action": "Review duration, number of prompts and interruptions.",
+      "source": "User requirements / original design"
+    },
+    {
+      "id": "I05",
+      "stage": "Interview detail — reusable",
+      "use": "Optional",
+      "ar": "إلى أي درجة أُتيحت لك فرصة طرح أسئلتك خلال [المقابلة]؟",
+      "en": "How much opportunity did you have to ask your own questions during [interview]?",
+      "scale": "OPPORTUNITY",
+      "condition": "Relevant interview attended",
+      "action": "Reserve space for candidate questions.",
+      "source": "https://www.surveymonkey.com/templates/candidate-experience-survey-template/"
+    },
+    {
+      "id": "I06",
+      "stage": "Interview detail — reusable",
+      "use": "Optional",
+      "ar": "هل حدث خلال [المقابلة] موقف جعلك تشعر بعدم الاحترام أو بعدم الارتياح؟",
+      "en": "Did anything during [interview] make you feel disrespected or uncomfortable?",
+      "scale": "YES_NO_PREFER_NOT",
+      "condition": "Relevant interview attended; optional; optional comment without names",
+      "action": "Route for confidential HR review; do not automatically forward allegations to the interviewer.",
+      "source": "User requirements / original design"
+    },
+    {
+      "id": "C01",
+      "stage": "Across completed stages",
+      "use": "Core",
+      "ar": "كيف تقيّم سرعة تحديثك بشأن وضع طلبك خلال رحلة التوظيف؟",
+      "en": "How would you rate the speed of the updates you received about your application?",
+      "scale": "QUALITY",
+      "condition": "All outcomes; allow No updates received, coded separately",
+      "action": "Review update service levels. Missing updates are not N/A.",
+      "source": "https://www.surveymonkey.com/templates/candidate-experience-survey-template/"
+    },
+    {
+      "id": "C02",
+      "stage": "Across completed stages",
+      "use": "Core",
+      "ar": "كيف تقيّم مدة الانتظار بين مراحل التوظيف التي مررت بها؟",
+      "en": "How reasonable were the waiting periods between the recruitment stages you experienced?",
+      "scale": "REASONABLENESS",
+      "condition": "At least two stages experienced; otherwise skip",
+      "action": "Review stage turnaround times without assuming the cause of delay.",
+      "source": "https://support.greenhouse.io/hc/en-us/articles/20996918310555-Sample-survey-questions"
+    },
+    {
+      "id": "C03",
+      "stage": "Across completed stages",
+      "use": "Conditional",
+      "ar": "بين أي مرحلتين كان الانتظار الأكثر إزعاجًا بالنسبة لك؟",
+      "en": "Between which stages was the wait most frustrating for you?",
+      "scale": "STAGE_GAP",
+      "condition": "C02 = 1 or 2; show only experienced stage transitions",
+      "action": "Identify the bottleneck; avoid exact dates in anonymous rejection responses.",
+      "source": "User requirements / original design"
+    },
+    {
+      "id": "R01",
+      "stage": "Reference / background checks",
+      "use": "Core",
+      "ar": "إلى أي درجة كان الغرض من التحقق من المراجع أو الخلفية واضحًا لك؟",
+      "en": "How clear was the purpose of the reference or background checks to you?",
+      "scale": "CLARITY",
+      "condition": "Candidate was informed checks were initiated; label the actual check performed",
+      "action": "Review the explanation provided; do not ask the candidate to evaluate unseen checks.",
+      "source": "User requirements / original design"
+    },
+    {
+      "id": "R02",
+      "stage": "Reference / background checks",
+      "use": "Optional",
+      "ar": "إلى أي درجة كانت المعلومات المطلوب منك توفيرها لإتمام التحقق واضحة؟",
+      "en": "How clear was the information you were asked to provide for the checks?",
+      "scale": "CLARITY",
+      "condition": "Candidate was asked for check-related information",
+      "action": "Review requests and instructions; do not collect reference names or check findings in the survey.",
+      "source": "User requirements / original design"
+    },
+    {
+      "id": "O01",
+      "stage": "Offer",
+      "use": "Core",
+      "ar": "قبل توقيع العرض، إلى أي درجة كانت شروطه واضحة لك؟",
+      "en": "Before signing, how clear were the terms of the offer to you?",
+      "scale": "CLARITY",
+      "condition": "Offer signed only",
+      "action": "Review offer explanation and opportunities to clarify terms.",
+      "source": "User requirements / original design"
+    },
+    {
+      "id": "O02",
+      "stage": "Offer",
+      "use": "Optional",
+      "ar": "هل وجدت في العرض اختلافًا مهمًا عما فهمته من المناقشات السابقة؟",
+      "en": "Did the offer contain any important difference from what you understood from earlier discussions?",
+      "scale": "OFFER_DIFFERENCE",
+      "condition": "Offer received; signed or withdrawn outcome; optional explanation",
+      "action": "Review expectation mismatches; do not treat every difference as a breach.",
+      "source": "User requirements / original design"
+    },
+    {
+      "id": "O03",
+      "stage": "Offer",
+      "use": "Optional",
+      "ar": "كيف تقيّم الوقت الذي أُتيح لك لمراجعة العرض قبل اتخاذ قرارك؟",
+      "en": "How would you rate the time you were given to review the offer before deciding?",
+      "scale": "REASONABLENESS",
+      "condition": "Offer received",
+      "action": "Review offer deadlines and candidate requests for clarification.",
+      "source": "User requirements / original design"
+    },
+    {
+      "id": "W01",
+      "stage": "Withdrawn outcome",
+      "use": "Core",
+      "ar": "ما السبب الرئيسي الذي دفعك لعدم الاستمرار في هذه الفرصة؟",
+      "en": "What was the main reason you decided not to continue with this opportunity?",
+      "scale": "WITHDRAWAL_REASON",
+      "condition": "Withdrawn only; single main reason; permit Prefer not to say",
+      "action": "Separate process-related withdrawal from role fit, competing offers and personal circumstances.",
+      "source": "User requirements / original design"
+    },
+    {
+      "id": "W02",
+      "stage": "Withdrawn outcome",
+      "use": "Optional",
+      "ar": "هل كان هناك تغيير واقعي من جانبنا كان سيجعلك تفكر في الاستمرار؟",
+      "en": "Was there a realistic change on our side that might have made you consider continuing?",
+      "scale": "TEXT",
+      "condition": "Withdrawn only; optional; accept No",
+      "action": "Review avoidable losses without promising a revised offer or reopening the process.",
+      "source": "User requirements / original design"
+    },
+    {
+      "id": "W03",
+      "stage": "Withdrawn outcome",
+      "use": "Optional",
+      "ar": "هل ترغب أن يتواصل معك فريق الموارد البشرية لفهم ملاحظاتك بشكل أفضل؟",
+      "en": "Would you like HR to contact you to understand your feedback better?",
+      "scale": "YES_NO",
+      "condition": "Withdrawn only; answers are identified; follow-up is optional",
+      "action": "Follow up only if requested; do not turn consent into compulsory contact.",
+      "source": "User requirements / original design"
+    },
+    {
+      "id": "J01",
+      "stage": "Rejection sent outcome",
+      "use": "Core",
+      "ar": "كيف تقيّم احترام الصياغة المستخدمة لإبلاغك بعدم الاستمرار؟",
+      "en": "How would you rate the respectfulness of the message informing you that your application would not progress?",
+      "scale": "QUALITY",
+      "condition": "Rejection message actually sent; anonymous response path",
+      "action": "Review rejection wording and tone; do not rate satisfaction with the rejection decision itself.",
+      "source": "User requirements / original design"
+    },
+    {
+      "id": "J02",
+      "stage": "Rejection sent outcome",
+      "use": "Optional",
+      "ar": "إلى أي درجة كانت نتيجة طلبك واضحة في رسالة الرفض؟",
+      "en": "How clearly did the rejection message communicate the outcome of your application?",
+      "scale": "CLARITY",
+      "condition": "Rejection sent only",
+      "action": "Remove vague closure wording without promising individual feedback.",
+      "source": "User requirements / original design"
+    },
+    {
+      "id": "J03",
+      "stage": "Rejection sent outcome",
+      "use": "Optional",
+      "ar": "ما الذي كان سيجعل طريقة إنهاء التواصل معك أفضل؟",
+      "en": "What could have improved the way we concluded communication with you?",
+      "scale": "TEXT",
+      "condition": "Rejection sent only; optional; remind candidate not to identify themselves",
+      "action": "Improve closure practice; never attempt to re-identify the respondent.",
+      "source": "User requirements / original design"
+    },
+    {
+      "id": "N01",
+      "stage": "Offer signed outcome",
+      "use": "Optional",
+      "ar": "ما العامل الأكثر تأثيرًا في قرارك قبول العرض؟",
+      "en": "Which factor had the greatest influence on your decision to accept the offer?",
+      "scale": "ACCEPTANCE_REASON",
+      "condition": "Offer signed only; one primary factor",
+      "action": "Compare attraction factors with the employer proposition; not an onboarding satisfaction measure.",
+      "source": "https://www.qualtrics.com/support/employee-experience/creating-ee-project/common-use-cases-ee/candidate-experience-program/"
+    },
+    {
+      "id": "N02",
+      "stage": "Offer signed outcome",
+      "use": "Optional",
+      "ar": "هل بقي موضوع متعلق بالعرض تحتاج إلى توضيحه قبل المباشرة؟",
+      "en": "Is there anything about the offer you still need clarified before starting?",
+      "scale": "TEXT",
+      "condition": "Offer signed only; identified response; optional",
+      "action": "Ask HR to clarify outstanding offer matters before the start date.",
+      "source": "User requirements / original design"
+    },
+    {
+      "id": "G01",
+      "stage": "Overall experience",
+      "use": "Core",
+      "ar": "بشكل عام، ما مدى رضاك عن تجربة التوظيف التي مررت بها معنا؟",
+      "en": "Overall, how satisfied are you with the recruitment experience you had with us?",
+      "scale": "SATISFACTION",
+      "condition": "All outcomes; completed experience only",
+      "action": "Track overall experience separately from the hiring decision.",
+      "source": "https://www.surveymonkey.com/learn/employee-feedback/candidate-experience-survey/"
+    },
+    {
+      "id": "G02",
+      "stage": "Employer advocacy",
+      "use": "Core",
+      "ar": "استنادًا إلى تجربتك، ما مدى احتمال أن تنصح شخصًا مناسبًا بالتقديم إلى الشركة؟",
+      "en": "Based on your experience, how likely are you to encourage a suitable person to apply to the company?",
+      "scale": "LIKELIHOOD_0_10",
+      "condition": "All outcomes; optional answer / Cannot judge",
+      "action": "Optional candidate advocacy score: %9–10 minus %0–6. Not eNPS and no external benchmark claimed.",
+      "source": "https://www.surveymonkey.com/learn/employee-feedback/candidate-experience-survey/"
+    },
+    {
+      "id": "G03",
+      "stage": "Future consideration",
+      "use": "Optional",
+      "ar": "إذا توفرت فرصة مناسبة مستقبلًا، ما مدى استعدادك للنظر في التقديم إلينا؟",
+      "en": "If a suitable opportunity became available later, how willing would you be to consider applying to us?",
+      "scale": "WILLINGNESS",
+      "condition": "Withdrawn / rejection only; exclude signed hires",
+      "action": "Understand future consideration without conflating it with current offer acceptance.",
+      "source": "https://support.greenhouse.io/hc/en-us/articles/20996918310555-Sample-survey-questions"
+    },
+    {
+      "id": "G04",
+      "stage": "Improvement",
+      "use": "Core",
+      "ar": "ما التغيير الواحد الذي كان سيحسّن تجربتك معنا أكثر من غيره؟",
+      "en": "What one change would have made the biggest improvement to your experience with us?",
+      "scale": "TEXT",
+      "condition": "All outcomes; optional response",
+      "action": "Prioritize recurring process issues; HR reviews comments in context.",
+      "source": "User requirements / original design"
+    }
+  ],
+  "scales": {
+    "QUALITY": {
+      "ar": "1 سيئ جدًا | 2 سيئ | 3 مقبول | 4 جيد | 5 ممتاز",
+      "en": "1 Very poor | 2 Poor | 3 Acceptable | 4 Good | 5 Excellent",
+      "notes": "N/A / Cannot recall where appropriate. C01 additionally has No updates received; do not treat that as N/A."
+    },
+    "CLARITY": {
+      "ar": "1 غير واضح إطلاقًا | 2 غير واضح إلى حد كبير | 3 واضح جزئيًا | 4 واضح | 5 واضح تمامًا",
+      "en": "1 Not at all clear | 2 Mostly unclear | 3 Partly clear | 4 Clear | 5 Completely clear",
+      "notes": "Not applicable / Cannot recall."
+    },
+    "EASE": {
+      "ar": "1 صعب جدًا | 2 صعب | 3 لا سهل ولا صعب | 4 سهل | 5 سهل جدًا",
+      "en": "1 Very difficult | 2 Difficult | 3 Neither easy nor difficult | 4 Easy | 5 Very easy",
+      "notes": "Not applicable if no application form was completed."
+    },
+    "IMPRESSION": {
+      "ar": "1 سلبي جدًا | 2 سلبي | 3 محايد | 4 إيجابي | 5 إيجابي جدًا",
+      "en": "1 Very negative | 2 Negative | 3 Neutral | 4 Positive | 5 Very positive",
+      "notes": "Separate: No clear impression / Cannot recall (before); Not enough information (after). Never code as neutral."
+    },
+    "OPPORTUNITY": {
+      "ar": "1 لا فرصة إطلاقًا | 2 فرصة قليلة | 3 فرصة متوسطة | 4 فرصة كبيرة | 5 فرصة كبيرة جدًا",
+      "en": "1 None | 2 A little | 3 A moderate amount | 4 A lot | 5 A great deal",
+      "notes": "Not applicable / Cannot judge."
+    },
+    "RELEVANCE": {
+      "ar": "1 غير مرتبط إطلاقًا | 2 ارتباط ضعيف | 3 ارتباط متوسط | 4 مرتبط بدرجة كبيرة | 5 مرتبط تمامًا",
+      "en": "1 Not at all related | 2 Slightly related | 3 Moderately related | 4 Very related | 5 Completely related",
+      "notes": "Cannot judge / Not applicable."
+    },
+    "REASONABLENESS": {
+      "ar": "1 غير مناسب إطلاقًا | 2 غير مناسب غالبًا | 3 مناسب جزئيًا | 4 مناسب | 5 مناسب جدًا",
+      "en": "1 Very unreasonable | 2 Unreasonable | 3 Partly reasonable | 4 Reasonable | 5 Very reasonable",
+      "notes": "Cannot recall / Not applicable."
+    },
+    "SUFFICIENCY": {
+      "ar": "1 غير كافٍ إطلاقًا | 2 غير كافٍ غالبًا | 3 كافٍ جزئيًا | 4 كافٍ | 5 كافٍ تمامًا",
+      "en": "1 Not at all sufficient | 2 Mostly insufficient | 3 Partly sufficient | 4 Sufficient | 5 Fully sufficient",
+      "notes": "Cannot recall / Not applicable."
+    },
+    "SATISFACTION": {
+      "ar": "1 غير راضٍ جدًا | 2 غير راضٍ | 3 لا راضٍ ولا غير راضٍ | 4 راضٍ | 5 راضٍ جدًا",
+      "en": "1 Very dissatisfied | 2 Dissatisfied | 3 Neither satisfied nor dissatisfied | 4 Satisfied | 5 Very satisfied",
+      "notes": "Prefer not to answer."
+    },
+    "LIKELIHOOD_0_10": {
+      "ar": "0 غير محتمل إطلاقًا إلى 10 محتمل للغاية",
+      "en": "0 Not at all likely to 10 Extremely likely",
+      "notes": "Cannot judge / Prefer not to answer; exclude these from calculation."
+    },
+    "WILLINGNESS": {
+      "ar": "1 غير مستعد إطلاقًا | 2 غير مستعد | 3 غير متأكد | 4 مستعد | 5 مستعد جدًا",
+      "en": "1 Very unwilling | 2 Unwilling | 3 Unsure | 4 Willing | 5 Very willing",
+      "notes": "Prefer not to answer."
+    },
+    "YES_NO_UNSURE": {
+      "ar": "نعم | لا | غير متأكد",
+      "en": "Yes | No | Unsure",
+      "notes": "If not Yes, skip prior reputation detail."
+    },
+    "YES_NO": {
+      "ar": "نعم | لا",
+      "en": "Yes | No",
+      "notes": "Optional answer."
+    },
+    "YES_NO_PREFER_NOT": {
+      "ar": "نعم | لا | أفضل عدم الإجابة",
+      "en": "Yes | No | Prefer not to answer",
+      "notes": "If Yes, allow an optional comment without identifying details."
+    },
+    "JOB_SOURCE": {
+      "ar": "LinkedIn | موقع الشركة | منصة وظائف | ترشيح موظف | معرفة شخصية | وكالة توظيف | تواصل مباشر من الشركة | نقابة/جامعة/فعالية | مصدر آخر | لا أتذكر",
+      "en": "LinkedIn | Company careers site | Job board | Employee referral | Personal contact | Recruitment agency | Direct outreach from the company | Association/university/event | Other | Cannot recall",
+      "notes": "Single choice; if Job board, optionally choose Bayt / Akhtaboot / other. No referrer names."
+    },
+    "REPUTATION_SOURCES": {
+      "ar": "موظفون حاليون | موظفون سابقون | معارف | LinkedIn | موقع الشركة | مواقع تقييم أصحاب العمل | أخبار/فعاليات مهنية | مصدر آخر | لا أتذكر",
+      "en": "Current employees | Former employees | Personal contacts | LinkedIn | Company website | Employer review sites | News/professional events | Other | Cannot recall",
+      "notes": "Multiple choice. Do not ask who said what by name."
+    },
+    "ASSESSMENT_BARRIER": {
+      "ar": "لا عوائق | مشكلة تقنية | تعليمات غير واضحة | صعوبة في ترتيب الوقت | حاجة لدعم في الوصول | عائق آخر | أفضل عدم الإجابة",
+      "en": "No barriers | Technical issue | Unclear instructions | Scheduling difficulty | Accessibility support needed | Other | Prefer not to answer",
+      "notes": "Multiple choice; No barriers and Prefer not to answer are exclusive. Do not request medical details."
+    },
+    "STAGE_GAP": {
+      "ar": "التقديم–المكالمة | المكالمة–HR | HR–التقنية | التقنية–الاختبار | الاختبار–النهائية | النهائية–التحقق | التحقق–القرار | أخرى | لا أتذكر",
+      "en": "Application–screening | Screening–HR | HR–technical | Technical–assessment | Assessment–final | Final–checks | Checks–decision | Other | Cannot recall",
+      "notes": "Only show transitions actually experienced; allow gaps caused by skipped stages."
+    },
+    "OFFER_DIFFERENCE": {
+      "ar": "نعم | لا | غير متأكد | أفضل عدم الإجابة",
+      "en": "Yes | No | Unsure | Prefer not to answer",
+      "notes": "If Yes: optional comment. No salary amounts required."
+    },
+    "WITHDRAWAL_REASON": {
+      "ar": "قبول فرصة أخرى | الراتب/المزايا المتوقعة | عدم ملاءمة الدور | الموقع/نمط العمل | مدة الإجراءات | التواصل | تجربة مقابلة | متطلبات الاختبار | انطباعي عن الشركة | ظروف شخصية | سبب آخر | أفضل عدم الإجابة",
+      "en": "Accepted another opportunity | Expected pay/benefits | Role fit | Location/work arrangement | Process duration | Communication | Interview experience | Assessment requirements | Impression of the company | Personal circumstances | Other | Prefer not to answer",
+      "notes": "Single primary reason; optional secondary reasons should be analysed separately."
+    },
+    "ACCEPTANCE_REASON": {
+      "ar": "طبيعة الدور | التعويضات | فرص التطور | الانطباع عن المدير/الفريق | سمعة الشركة | الموقع/نمط العمل | تجربة التوظيف | عامل آخر | أفضل عدم الإجابة",
+      "en": "Role itself | Compensation | Development prospects | Impression of manager/team | Company reputation | Location/work arrangement | Recruitment experience | Other | Prefer not to answer",
+      "notes": "Single primary factor."
+    },
+    "TEXT": {
+      "ar": "إجابة اختيارية؛ لا تذكر أسماء أو تفاصيل تكشف هويتك في مسار الرفض",
+      "en": "Optional free text; do not include names or identifying details in the rejection pathway",
+      "notes": "Do not require comments or automatically infer truth, motive or misconduct from them."
+    }
+  }
+}
